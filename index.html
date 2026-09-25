@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Swing v2.4.1 Scanner</title>
+<title>Swing V3 Scanner</title>
 <style>
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;margin:0;background:#0b0d10;color:#eee}
 .wrap{padding:18px;max-width:1500px;margin:auto} h1{margin:0 0 6px;font-size:24px} .meta{color:#aab2bd;margin-bottom:16px}
@@ -10,281 +10,281 @@ th{position:sticky;top:0;background:#171c24;text-align:left} .num{text-align:rig
 .cancel{background:#481e24} .wait{background:#29303a} .scroll{overflow:auto;border-radius:14px;border:1px solid #252b36}
 ul{color:#aab2bd;font-size:13px;line-height:1.45}
 </style></head><body><div class="wrap">
-<h1>Swing Call/Put Model v2.4.1</h1><div class="meta">Updated: 2026-09-24T15:24:57.706520-04:00</div>
+<h1>Swing Call/Put Model V3</h1><div class="meta">Updated: 2026-09-25T09:55:16.373497-04:00</div>
 <div class="cards"><div class="card">Market Gate: <b>GREEN</b></div>
 <div class="card">Universe: <b>30 / 30</b></div><div class="card">Options Flow: <b>N/A — do not guess</b></div></div>
-<div class="scroll"><table><thead><tr><th>Ticker</th><th>Price</th><th>Call Δ</th><th>Put Δ</th><th>Status</th><th>15m</th>
+<div class="scroll"><table><thead><tr><th>Ticker</th><th>Price</th><th>Call Δ</th><th>Put Δ</th><th>Score Status</th><th>V3 Call Confirm</th><th>15m</th>
 <th>RS 2h vs QQQ</th><th>Cluster</th><th>Call Gate</th><th>Put Gate</th><th>Trigger</th><th>Stop</th><th>4R</th></tr></thead>
 <tbody>
     <tr>
-      <td><b>DELL</b></td><td class="num">544.59</td>
-      <td class="num">8.8 <small>+1.4</small></td>
-      <td class="num">1.6 <small>-0.5</small></td>
-      <td><span class="badge armed">ARMED</span></td><td>HL/HH</td><td class="num">+1.53%</td>
-      <td>server_infra</td>
-      <td></td><td>VETO</td>
-      <td class="num">549.85</td><td class="num">536.34</td><td class="num">603.89</td>
+      <td><b>MU</b></td><td class="num">1092.63</td>
+      <td class="num">8.5 <small>+1.3</small></td>
+      <td class="num">2.1 <small>-1.0</small></td>
+      <td><span class="badge armed">ARMED</span></td><td><b>WAIT_E2</b><br><small>ROLL8 E1 | ATR 0.74%</small></td><td>HL/HH</td><td class="num">+1.46%</td>
+      <td>memory_storage</td>
+      <td></td><td></td>
+      <td class="num">1108.58</td><td class="num">1071.18</td><td class="num">1258.17</td>
     </tr>
     <tr>
-      <td><b>HPE</b></td><td class="num">64.16</td>
-      <td class="num">8.7 <small>+1.3</small></td>
-      <td class="num">2.1 <small>+0.4</small></td>
-      <td><span class="badge armed">ARMED</span></td><td>HL/HH</td><td class="num">+0.17%</td>
-      <td>server_infra</td>
-      <td></td><td>VETO</td>
-      <td class="num">65.47</td><td class="num">63.75</td><td class="num">72.37</td>
-    </tr>
-    <tr>
-      <td><b>QFIN</b></td><td class="num">7.54</td>
-      <td class="num">8.1 <small>+1.8</small></td>
-      <td class="num">2.6 <small>-1.6</small></td>
-      <td><span class="badge armed">ARMED</span></td><td>HL/HH</td><td class="num">+0.55%</td>
-      <td></td>
-      <td></td><td>VETO</td>
-      <td class="num">7.54</td><td class="num">7.49</td><td class="num">7.76</td>
-    </tr>
-    <tr>
-      <td><b>CRCL</b></td><td class="num">92.87</td>
-      <td class="num">8.0 <small>+1.0</small></td>
-      <td class="num">2.4 <small>-0.9</small></td>
-      <td><span class="badge armed">ARMED</span></td><td>HL/HH</td><td class="num">+0.51%</td>
-      <td></td>
-      <td></td><td>VETO</td>
-      <td class="num">94.28</td><td class="num">92.07</td><td class="num">103.13</td>
-    </tr>
-    <tr>
-      <td><b>IBIT</b></td><td class="num">47.91</td>
-      <td class="num">7.8 <small>+2.1</small></td>
-      <td class="num">2.6 <small>-2.2</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">+0.25%</td>
-      <td></td>
-      <td></td><td>VETO</td>
-      <td class="num">47.91</td><td class="num">47.67</td><td class="num">48.85</td>
-    </tr>
-    <tr>
-      <td><b>LITE</b></td><td class="num">931.32</td>
-      <td class="num">7.8 <small>+0.5</small></td>
-      <td class="num">2.7 <small>-0.2</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">+0.15%</td>
-      <td>ai_high_beta</td>
-      <td></td><td>VETO</td>
-      <td class="num">937.70</td><td class="num">924.18</td><td class="num">991.78</td>
-    </tr>
-    <tr>
-      <td><b>ORCL</b></td><td class="num">139.70</td>
-      <td class="num">7.7 <small>+0.8</small></td>
-      <td class="num">3.0 <small>-0.7</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">+0.67%</td>
-      <td>cloud_platform</td>
-      <td></td><td>VETO</td>
-      <td class="num">140.32</td><td class="num">138.65</td><td class="num">147.00</td>
-    </tr>
-    <tr>
-      <td><b>NVDA</b></td><td class="num">223.83</td>
-      <td class="num">7.5 <small>+2.1</small></td>
-      <td class="num">2.8 <small>-2.1</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">-0.25%</td>
+      <td><b>AVGO</b></td><td class="num">353.76</td>
+      <td class="num">8.3 <small>+1.7</small></td>
+      <td class="num">2.2 <small>-1.6</small></td>
+      <td><span class="badge armed">ARMED</span></td><td><b>WAIT_ATR</b><br><small>ROLL8 E2 | ATR 0.39%</small></td><td>HL/HH</td><td class="num">+0.54%</td>
       <td>compute</td>
       <td></td><td>VETO</td>
-      <td class="num">224.47</td><td class="num">223.65</td><td class="num">227.79</td>
+      <td class="num">354.37</td><td class="num">349.02</td><td class="num">375.77</td>
     </tr>
     <tr>
-      <td><b>BE</b></td><td class="num">267.63</td>
-      <td class="num">7.5 <small>+2.4</small></td>
-      <td class="num">3.0 <small>-2.4</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">+0.15%</td>
+      <td><b>IBIT</b></td><td class="num">47.51</td>
+      <td class="num">2.5 <small>-5.3</small></td>
+      <td class="num">7.9 <small>+5.3</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_VETO</b><br><small>ROLL8 E1 | ATR 0.44%</small></td><td>LH/LL</td><td class="num">-1.17%</td>
+      <td></td>
+      <td>VETO</td><td></td>
+      <td class="num">47.43</td><td class="num">47.94</td><td class="num">45.41</td>
+    </tr>
+    <tr>
+      <td><b>SNDK</b></td><td class="num">1777.78</td>
+      <td class="num">7.9 <small>+3.8</small></td>
+      <td class="num">2.6 <small>-3.9</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 1.04%</small></td><td>HL/HH</td><td class="num">+1.51%</td>
+      <td>memory_storage</td>
+      <td></td><td></td>
+      <td class="num">1815.00</td><td class="num">1738.00</td><td class="num">2123.00</td>
+    </tr>
+    <tr>
+      <td><b>BABA</b></td><td class="num">110.63</td>
+      <td class="num">2.5 <small>-3.2</small></td>
+      <td class="num">7.9 <small>+3.0</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_VETO</b><br><small>ROLL8 E1 | ATR 0.36%</small></td><td>LH/LL</td><td class="num">-1.19%</td>
+      <td></td>
+      <td>VETO</td><td></td>
+      <td class="num">110.26</td><td class="num">111.34</td><td class="num">105.94</td>
+    </tr>
+    <tr>
+      <td><b>STX</b></td><td class="num">914.09</td>
+      <td class="num">7.5 <small>+5.5</small></td>
+      <td class="num">2.9 <small>-4.5</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 0.82%</small></td><td>HL/HH</td><td class="num">+0.17%</td>
+      <td>memory_storage</td>
+      <td></td><td></td>
+      <td class="num">922.50</td><td class="num">898.80</td><td class="num">1017.30</td>
+    </tr>
+    <tr>
+      <td><b>HPE</b></td><td class="num">64.88</td>
+      <td class="num">7.5 <small>-1.2</small></td>
+      <td class="num">3.0 <small>+0.9</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 E1 | ATR 1.14%</small></td><td>MIXED</td><td class="num">+0.35%</td>
+      <td>server_infra</td>
+      <td></td><td></td>
+      <td class="num">65.65</td><td class="num">63.31</td><td class="num">75.01</td>
+    </tr>
+    <tr>
+      <td><b>BE</b></td><td class="num">277.20</td>
+      <td class="num">7.4 <small>-0.1</small></td>
+      <td class="num">1.0 <small>-2.0</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_CHASE</b><br><small>ROLL8 E2 | ATR 1.38%</small></td><td>HL/HH</td><td class="num">+4.20%</td>
+      <td>power</td>
+      <td></td><td>VETO</td>
+      <td class="num">277.60</td><td class="num">264.25</td><td class="num">331.00</td>
+    </tr>
+    <tr>
+      <td><b>HOOD</b></td><td class="num">119.99</td>
+      <td class="num">2.3 <small>-2.7</small></td>
+      <td class="num">7.4 <small>+1.7</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_VETO</b><br><small>ROLL8 NONE | ATR 0.67%</small></td><td>LH/LL</td><td class="num">-1.91%</td>
+      <td></td>
+      <td>VETO</td><td></td>
+      <td class="num">119.99</td><td class="num">121.90</td><td class="num">112.35</td>
+    </tr>
+    <tr>
+      <td><b>NBIS</b></td><td class="num">240.01</td>
+      <td class="num">1.9 <small>-5.0</small></td>
+      <td class="num">7.4 <small>+3.8</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_VETO</b><br><small>ROLL8 NONE | ATR 1.22%</small></td><td>LH/LL</td><td class="num">-3.54%</td>
+      <td>ai_high_beta</td>
+      <td>VETO</td><td></td>
+      <td class="num">239.93</td><td class="num">247.87</td><td class="num">208.19</td>
+    </tr>
+    <tr>
+      <td><b>CRCL</b></td><td class="num">89.48</td>
+      <td class="num">1.8 <small>-6.2</small></td>
+      <td class="num">7.4 <small>+5.0</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_VETO</b><br><small>ROLL8 E1 | ATR 1.33%</small></td><td>LH/LL</td><td class="num">-3.88%</td>
+      <td></td>
+      <td>VETO</td><td></td>
+      <td class="num">89.48</td><td class="num">93.30</td><td class="num">74.18</td>
+    </tr>
+    <tr>
+      <td><b>DELL</b></td><td class="num">559.88</td>
+      <td class="num">7.4 <small>-1.4</small></td>
+      <td class="num">2.4 <small>+0.8</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_CHASE</b><br><small>ROLL8 E1 | ATR 1.10%</small></td><td>MIXED</td><td class="num">+3.59%</td>
+      <td>server_infra</td>
+      <td></td><td></td>
+      <td class="num">559.88</td><td class="num">535.72</td><td class="num">656.55</td>
+    </tr>
+    <tr>
+      <td><b>MSTR</b></td><td class="num">160.15</td>
+      <td class="num">3.1 <small>-4.3</small></td>
+      <td class="num">7.4 <small>+5.3</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 E1 | ATR 0.96%</small></td><td>LH/LL</td><td class="num">-1.79%</td>
+      <td></td>
+      <td></td><td></td>
+      <td class="num">158.66</td><td class="num">163.42</td><td class="num">139.62</td>
+    </tr>
+    <tr>
+      <td><b>RKLB</b></td><td class="num">74.98</td>
+      <td class="num">7.4 <small>+3.2</small></td>
+      <td class="num">2.7 <small>-3.8</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_CHASE</b><br><small>ROLL8 NONE | ATR 0.99%</small></td><td>HL/HH</td><td class="num">+0.34%</td>
+      <td></td>
+      <td></td><td></td>
+      <td class="num">74.98</td><td class="num">73.17</td><td class="num">82.22</td>
+    </tr>
+    <tr>
+      <td><b>QQQ</b></td><td class="num">744.94</td>
+      <td class="num">7.4 <small>-0.1</small></td>
+      <td class="num">2.6 <small>-0.2</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_CHASE</b><br><small>ROLL8 E2 | ATR 0.23%</small></td><td>HL/HH</td><td class="num">+0.00%</td>
+      <td></td>
+      <td></td><td>VETO</td>
+      <td class="num">744.94</td><td class="num">740.26</td><td class="num">763.66</td>
+    </tr>
+    <tr>
+      <td><b>QFIN</b></td><td class="num">7.41</td>
+      <td class="num">2.9 <small>-5.2</small></td>
+      <td class="num">7.4 <small>+4.8</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 0.60%</small></td><td>LH/LL</td><td class="num">-2.05%</td>
+      <td></td>
+      <td></td><td></td>
+      <td class="num">7.35</td><td class="num">7.55</td><td class="num">6.53</td>
+    </tr>
+    <tr>
+      <td><b>AXTI</b></td><td class="num">76.58</td>
+      <td class="num">3.0 <small>-4.1</small></td>
+      <td class="num">7.4 <small>+3.9</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 1.45%</small></td><td>LH/LL</td><td class="num">-2.40%</td>
+      <td>ai_high_beta</td>
+      <td></td><td></td>
+      <td class="num">75.32</td><td class="num">78.40</td><td class="num">63.00</td>
+    </tr>
+    <tr>
+      <td><b>META</b></td><td class="num">756.62</td>
+      <td class="num">2.9 <small>-4.5</small></td>
+      <td class="num">7.3 <small>+5.7</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 E1 | ATR 0.76%</small></td><td>MIXED</td><td class="num">-2.88%</td>
+      <td>cloud_platform</td>
+      <td></td><td></td>
+      <td class="num">751.76</td><td class="num">779.82</td><td class="num">639.52</td>
+    </tr>
+    <tr>
+      <td><b>SPX*</b></td><td class="num">770.10</td>
+      <td class="num">7.2 <small>-0.3</small></td>
+      <td class="num">3.2 <small>+0.4</small></td>
+      <td><span class="badge radar">RADAR</span></td><td><b>BLOCKED_CHASE</b><br><small>ROLL8 E1 | ATR 0.17%</small></td><td>HL/HH</td><td class="num">-0.27%</td>
+      <td></td>
+      <td></td><td></td>
+      <td class="num">770.10</td><td class="num">767.24</td><td class="num">781.52</td>
+    </tr>
+    <tr>
+      <td><b>TSLA</b></td><td class="num">374.76</td>
+      <td class="num">3.5 <small>-2.7</small></td>
+      <td class="num">6.8 <small>+2.7</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 0.76%</small></td><td>MIXED</td><td class="num">-2.00%</td>
+      <td></td>
+      <td></td><td></td>
+      <td class="num">369.81</td><td class="num">386.78</td><td class="num">301.93</td>
+    </tr>
+    <tr>
+      <td><b>AAPL</b></td><td class="num">336.20</td>
+      <td class="num">3.6 <small>-3.5</small></td>
+      <td class="num">6.8 <small>+3.4</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 E1 | ATR 0.29%</small></td><td>LH/LL</td><td class="num">-0.98%</td>
+      <td></td>
+      <td></td><td></td>
+      <td class="num">334.55</td><td class="num">338.04</td><td class="num">320.59</td>
+    </tr>
+    <tr>
+      <td><b>ORCL</b></td><td class="num">140.10</td>
+      <td class="num">6.7 <small>-1.0</small></td>
+      <td class="num">3.9 <small>+0.9</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 0.78%</small></td><td>MIXED</td><td class="num">+0.00%</td>
+      <td>cloud_platform</td>
+      <td></td><td></td>
+      <td class="num">140.86</td><td class="num">137.83</td><td class="num">152.98</td>
+    </tr>
+    <tr>
+      <td><b>OKLO</b></td><td class="num">38.37</td>
+      <td class="num">6.6 <small>+1.7</small></td>
+      <td class="num">3.9 <small>-1.6</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 0.77%</small></td><td>HL/HH</td><td class="num">-0.85%</td>
       <td>power</td>
       <td></td><td></td>
-      <td class="num">269.20</td><td class="num">263.07</td><td class="num">293.72</td>
+      <td class="num">39.07</td><td class="num">38.16</td><td class="num">42.71</td>
     </tr>
     <tr>
-      <td><b>QQQ</b></td><td class="num">741.30</td>
-      <td class="num">7.5 <small>+2.1</small></td>
-      <td class="num">2.8 <small>-2.2</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">+0.00%</td>
+      <td><b>SPCX</b></td><td class="num">147.92</td>
+      <td class="num">6.4 <small>+3.5</small></td>
+      <td class="num">3.9 <small>-3.5</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 0.53%</small></td><td>MIXED</td><td class="num">-0.54%</td>
       <td></td>
       <td></td><td></td>
-      <td class="num">741.80</td><td class="num">739.41</td><td class="num">751.36</td>
+      <td class="num">148.72</td><td class="num">146.60</td><td class="num">157.20</td>
     </tr>
     <tr>
-      <td><b>SPX*</b></td><td class="num">767.86</td>
-      <td class="num">7.5 <small>+1.8</small></td>
-      <td class="num">2.8 <small>-2.0</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">-0.04%</td>
-      <td></td>
-      <td></td><td></td>
-      <td class="num">768.35</td><td class="num">766.83</td><td class="num">774.45</td>
-    </tr>
-    <tr>
-      <td><b>META</b></td><td class="num">779.20</td>
-      <td class="num">7.4 <small>+0.0</small></td>
-      <td class="num">1.6 <small>+0.0</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">+0.90%</td>
-      <td>cloud_platform</td>
-      <td></td><td>VETO</td>
-      <td class="num">779.20</td><td class="num">773.77</td><td class="num">800.92</td>
-    </tr>
-    <tr>
-      <td><b>STX</b></td><td class="num">899.48</td>
-      <td class="num">2.0 <small>-0.9</small></td>
-      <td class="num">7.4 <small>+0.0</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>LH/LL</td><td class="num">-1.29%</td>
-      <td>memory_storage</td>
-      <td>VETO</td><td></td>
-      <td class="num">899.48</td><td class="num">911.07</td><td class="num">853.12</td>
-    </tr>
-    <tr>
-      <td><b>MSTR</b></td><td class="num">163.29</td>
-      <td class="num">7.4 <small>+1.9</small></td>
-      <td class="num">2.1 <small>-2.7</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">+0.63%</td>
-      <td></td>
-      <td></td><td>VETO</td>
-      <td class="num">163.29</td><td class="num">161.50</td><td class="num">170.45</td>
-    </tr>
-    <tr>
-      <td><b>SPCX</b></td><td class="num">146.97</td>
-      <td class="num">2.9 <small>-1.8</small></td>
-      <td class="num">7.4 <small>+1.7</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>LH/LL</td><td class="num">-0.76%</td>
-      <td></td>
-      <td></td><td></td>
-      <td class="num">146.97</td><td class="num">148.04</td><td class="num">142.69</td>
-    </tr>
-    <tr>
-      <td><b>ASTS</b></td><td class="num">61.50</td>
-      <td class="num">2.9 <small>-1.6</small></td>
-      <td class="num">7.4 <small>+1.3</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>LH/LL</td><td class="num">-2.44%</td>
-      <td></td>
-      <td></td><td></td>
-      <td class="num">61.16</td><td class="num">62.62</td><td class="num">55.32</td>
-    </tr>
-    <tr>
-      <td><b>INTC</b></td><td class="num">126.44</td>
-      <td class="num">7.4 <small>+0.0</small></td>
-      <td class="num">2.1 <small>-0.7</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">+0.56%</td>
-      <td>compute</td>
-      <td></td><td>VETO</td>
-      <td class="num">126.60</td><td class="num">124.96</td><td class="num">133.16</td>
-    </tr>
-    <tr>
-      <td><b>MU</b></td><td class="num">1074.77</td>
-      <td class="num">7.2 <small>+2.2</small></td>
-      <td class="num">3.1 <small>-2.4</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">-0.11%</td>
-      <td>memory_storage</td>
-      <td></td><td>VETO</td>
-      <td class="num">1076.10</td><td class="num">1066.16</td><td class="num">1115.86</td>
-    </tr>
-    <tr>
-      <td><b>AAPL</b></td><td class="num">337.96</td>
-      <td class="num">7.1 <small>+0.9</small></td>
-      <td class="num">3.4 <small>-0.9</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL</td><td class="num">-0.18%</td>
-      <td></td>
-      <td></td><td></td>
-      <td class="num">337.96</td><td class="num">336.97</td><td class="num">341.92</td>
-    </tr>
-    <tr>
-      <td><b>SOFI</b></td><td class="num">16.79</td>
-      <td class="num">7.1 <small>-0.4</small></td>
-      <td class="num">3.4 <small>+0.5</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL</td><td class="num">+1.06%</td>
-      <td></td>
-      <td></td><td></td>
-      <td class="num">16.80</td><td class="num">16.68</td><td class="num">17.26</td>
-    </tr>
-    <tr>
-      <td><b>AXTI</b></td><td class="num">77.35</td>
-      <td class="num">7.1 <small>-0.3</small></td>
-      <td class="num">3.5 <small>+0.6</small></td>
-      <td><span class="badge radar">RADAR</span></td><td>HL/HH</td><td class="num">-0.30%</td>
-      <td>ai_high_beta</td>
-      <td></td><td></td>
-      <td class="num">78.66</td><td class="num">77.21</td><td class="num">84.46</td>
-    </tr>
-    <tr>
-      <td><b>NBIS</b></td><td class="num">246.56</td>
-      <td class="num">6.9 <small>+0.1</small></td>
-      <td class="num">3.6 <small>-0.4</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>HL</td><td class="num">-0.13%</td>
-      <td>ai_high_beta</td>
-      <td></td><td></td>
-      <td class="num">248.75</td><td class="num">246.27</td><td class="num">258.67</td>
-    </tr>
-    <tr>
-      <td><b>AVGO</b></td><td class="num">349.72</td>
-      <td class="num">6.6 <small>+1.6</small></td>
-      <td class="num">3.8 <small>-1.6</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>HL/HH</td><td class="num">-0.16%</td>
+      <td><b>INTC</b></td><td class="num">125.02</td>
+      <td class="num">3.9 <small>-3.5</small></td>
+      <td class="num">6.3 <small>+4.2</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 E1 | ATR 0.89%</small></td><td>MIXED</td><td class="num">-1.34%</td>
       <td>compute</td>
       <td></td><td></td>
-      <td class="num">350.54</td><td class="num">349.03</td><td class="num">356.58</td>
+      <td class="num">124.61</td><td class="num">127.44</td><td class="num">113.31</td>
     </tr>
     <tr>
-      <td><b>SNDK</b></td><td class="num">1740.08</td>
-      <td class="num">4.1 <small>+1.9</small></td>
-      <td class="num">6.5 <small>-2.0</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>HL</td><td class="num">-1.47%</td>
-      <td>memory_storage</td>
-      <td></td><td></td>
-      <td class="num">1732.69</td><td class="num">1752.00</td><td class="num">1655.45</td>
-    </tr>
-    <tr>
-      <td><b>RKLB</b></td><td class="num">73.58</td>
-      <td class="num">4.2 <small>-0.9</small></td>
-      <td class="num">6.5 <small>+0.9</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>LH/LL</td><td class="num">-2.14%</td>
+      <td><b>SOFI</b></td><td class="num">16.75</td>
+      <td class="num">6.0 <small>-1.1</small></td>
+      <td class="num">4.5 <small>+1.1</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 E1 | ATR 0.56%</small></td><td>MIXED</td><td class="num">-0.52%</td>
       <td></td>
       <td></td><td></td>
-      <td class="num">72.99</td><td class="num">74.56</td><td class="num">66.71</td>
+      <td class="num">16.87</td><td class="num">16.66</td><td class="num">17.69</td>
     </tr>
     <tr>
-      <td><b>TSLA</b></td><td class="num">379.47</td>
-      <td class="num">6.2 <small>+1.3</small></td>
-      <td class="num">4.1 <small>-1.4</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>HL</td><td class="num">-0.52%</td>
-      <td></td>
+      <td><b>NVDA</b></td><td class="num">225.05</td>
+      <td class="num">5.8 <small>-1.7</small></td>
+      <td class="num">4.5 <small>+1.7</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 E1 | ATR 0.38%</small></td><td>MIXED</td><td class="num">-0.10%</td>
+      <td>compute</td>
       <td></td><td></td>
-      <td class="num">380.31</td><td class="num">378.29</td><td class="num">388.39</td>
+      <td class="num">226.93</td><td class="num">223.43</td><td class="num">240.93</td>
     </tr>
     <tr>
       <td><b>NOW</b></td><td class="num">138.50</td>
-      <td class="num">4.4 <small>+0.8</small></td>
-      <td class="num">5.9 <small>-0.8</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>MIXED</td><td class="num">-0.21%</td>
+      <td class="num">4.6 <small>+0.2</small></td>
+      <td class="num">5.7 <small>-0.2</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 0.61%</small></td><td>MIXED</td><td class="num">-0.72%</td>
       <td>cloud_platform</td>
       <td></td><td></td>
-      <td class="num">138.10</td><td class="num">138.82</td><td class="num">135.20</td>
+      <td class="num">136.03</td><td class="num">138.82</td><td class="num">124.87</td>
     </tr>
     <tr>
-      <td><b>HOOD</b></td><td class="num">121.07</td>
-      <td class="num">5.0 <small>+1.6</small></td>
-      <td class="num">5.7 <small>-1.5</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>HL/HH</td><td class="num">-0.42%</td>
+      <td><b>ASTS</b></td><td class="num">62.14</td>
+      <td class="num">5.1 <small>+2.2</small></td>
+      <td class="num">5.6 <small>-1.8</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 NONE | ATR 0.96%</small></td><td>LH/LL</td><td class="num">-1.28%</td>
       <td></td>
       <td></td><td></td>
-      <td class="num">121.07</td><td class="num">121.91</td><td class="num">117.71</td>
+      <td class="num">60.91</td><td class="num">62.31</td><td class="num">55.29</td>
     </tr>
     <tr>
-      <td><b>BABA</b></td><td class="num">111.12</td>
-      <td class="num">5.7 <small>+0.9</small></td>
-      <td class="num">4.9 <small>-0.9</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>HL</td><td class="num">-0.28%</td>
-      <td></td>
+      <td><b>LITE</b></td><td class="num">929.18</td>
+      <td class="num">5.1 <small>-2.7</small></td>
+      <td class="num">5.4 <small>+2.7</small></td>
+      <td><span class="badge wait">WAIT</span></td><td><b>WAIT_SCORE</b><br><small>ROLL8 E1 | ATR 0.99%</small></td><td>LH/LL</td><td class="num">-0.44%</td>
+      <td>ai_high_beta</td>
       <td></td><td></td>
-      <td class="num">111.42</td><td class="num">111.02</td><td class="num">113.02</td>
-    </tr>
-    <tr>
-      <td><b>OKLO</b></td><td class="num">38.42</td>
-      <td class="num">4.9 <small>+1.4</small></td>
-      <td class="num">5.5 <small>-1.8</small></td>
-      <td><span class="badge wait">WAIT</span></td><td>LH/LL</td><td class="num">-0.48%</td>
-      <td>power</td>
-      <td></td><td></td>
-      <td class="num">38.09</td><td class="num">38.53</td><td class="num">36.33</td>
+      <td class="num">913.76</td><td class="num">937.54</td><td class="num">818.67</td>
     </tr></tbody></table></div>
-<p style="color:#aab2bd;font-size:12px">* SPX uses SPY as the free real-time proxy.</p><ul><li>RTH-only on the free configuration.</li><li>SPX uses SPY as real-time proxy.</li><li>Intraday E1/E2/E3 and P1/P2/P3 record first valid completed-15m trigger time and underlying close; no look-ahead backfill.</li><li>Score &gt;=8 means ARMED only when veto/chase gates permit; not automatic buy.</li><li>Current-day extended-hours requires a paid Twelve Data tier.</li><li>Options flow: N/A — do not guess.</li></ul>
+<p style="color:#aab2bd;font-size:12px">* SPX uses SPY as the free real-time proxy.</p><ul><li>V3: 09:30–11:00 ET CALL confirmation uses Rolling8 E2 + ATR% &gt;= 0.8686; after 11:00 uses Daily E2.</li><li>V3 keeps the existing score formula, &gt;=8 ARMED threshold, Veto, Chase, stops and targets unchanged.</li><li>RTH-only on the free configuration.</li><li>SPX uses SPY as real-time proxy.</li><li>Intraday E1/E2/E3 and P1/P2/P3 record first valid completed-15m trigger time and underlying close; no look-ahead backfill.</li><li>Score &gt;=8 means ARMED only when veto/chase gates permit; not automatic buy.</li><li>Current-day extended-hours requires a paid Twelve Data tier.</li><li>Options flow: N/A — do not guess.</li></ul>
 </div></body></html>
